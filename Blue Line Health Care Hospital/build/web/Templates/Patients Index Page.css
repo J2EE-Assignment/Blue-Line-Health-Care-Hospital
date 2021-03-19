@@ -8,6 +8,7 @@ and open the template in the editor.
     Author     : Neranji Sulakshika
 */
 
+
 :root {
   --main-radius: 5px;
   --main-padding: 5px;
@@ -29,25 +30,24 @@ body {
     "nav nav nav nav"
     "box1 box2 box3 box4"
     "box5 box6 box7 box4";
-  grid-gap: 0.3rem;
+  grid-gap: 0.8rem;
   font-weight: 800;
   text-transform: uppercase;
   position: relative;
 }
 
 nav{
-  background-color: rgb(0, 195, 255); 
-  color: rgb(74, 79, 79);
+  background-color: rgb(36, 170, 212); 
+  color: rgb(0, 0, 0);
   grid-area: nav;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
-  cursor: pointer;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #box1 {
-  background-color: rgb(43, 130, 130);
+  background-color: rgb(36, 170, 212);
   grid-area: box1; 
   display: block; 
   box-sizing: border-box; 
@@ -55,7 +55,7 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   overflow: hidden;
-  height: 250px;
+  height: 235px;
 }
 
 #box1 img{
@@ -68,7 +68,7 @@ nav{
 }
 
 #box2 {
-  background-color: rgb(0, 51, 102);
+  background-color: rgb(36, 170, 212);
   grid-area: box2;
   display: block; 
   box-sizing: border-box; 
@@ -76,7 +76,7 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   overflow: hidden;
-  height: 250px;
+  height: 235px;
 }
 
 #box2 img{
@@ -89,7 +89,7 @@ nav{
 }
 
 #box3 {
-  background-color: rgb(147, 98, 147); 
+  background-color: rgb(36, 170, 212);
   grid-area: box3;
   display: block; 
   box-sizing: border-box; 
@@ -97,11 +97,11 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   overflow: hidden;
-  height: 250px;
+  height: 235px;
 }
 
 #box3 img{
-  width: 180px;
+  width: 145px;
   vertical-align: middle;
 }
 
@@ -110,7 +110,7 @@ nav{
 }
 
 #box4 {
-  background-color: rgb(51, 102, 153);
+  background-color: rgb(36, 170, 212);
   grid-area: box4;
   display: block; 
   box-sizing: border-box; 
@@ -118,12 +118,12 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   overflow: hidden;
-  height: 490px;
+  height: 505px;
 }
 
 #box4 img{
-  height: 260px;
-  width: 260px;
+  height: 380px;
+  width: 280px;
   vertical-align: middle;
 }
 
@@ -132,7 +132,7 @@ nav{
 }
 
 #box5 { 
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(36, 170, 212);
   grid-area: box5;
   display: block; 
   box-sizing: border-box; 
@@ -140,7 +140,7 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   overflow: hidden;
-  height: 235px;
+  height: 255px;
 }
 
 #box5 img{
@@ -153,7 +153,7 @@ nav{
 }
 
 #box6 {
-  background-color: rgb(204, 51, 51);
+  background-color: rgb(36, 170, 212);
   grid-area: box6;
   display: block; 
   box-sizing: border-box; 
@@ -161,11 +161,11 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   overflow: hidden;
-  height: 235px;
+  height: 255px;
 }
 
 #box6 img{
-  width: 300px;
+  width: 205px;
   vertical-align: middle;
 }
 
@@ -174,7 +174,7 @@ nav{
 }
 
 #box7 {
-  background-color: rgb(180, 90, 45);
+  background-color: rgb(36, 170, 212);
   grid-area: box7;
   display: block; 
   box-sizing: border-box; 
@@ -182,7 +182,7 @@ nav{
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
   overflow: hidden;
-  height: 235px;
+  height: 255px;
 }
 
 #box7 img{
