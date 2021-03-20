@@ -137,11 +137,12 @@ form .category label
 
 form .button
 {
-  width: 40%;
+  width: 50%;
   height: 45px;
   margin: 35px 0;
   position: absolute;
-  left: 30%;
+  left: 38%;
+  cursor: pointer;
 }
 
 form .button input
