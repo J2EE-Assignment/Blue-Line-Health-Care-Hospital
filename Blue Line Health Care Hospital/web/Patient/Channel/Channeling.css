@@ -24,7 +24,7 @@ and open the template in the editor.
 
 body
 {
-  background: url(Cbg.jpg) no-repeat center;
+  background: url(Images/Cbg.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
   display: flex;
