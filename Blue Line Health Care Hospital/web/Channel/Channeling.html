@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <title>Channel Your Doctor</title>
+        <link rel="stylesheet" href="Channeling.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="title">Channel Your Doctor</div><br>
+            
+            <div class="content">
+              <form action="#">
+                <div class="user-details">
+
+                  <div class="input-box">
+                    <span class="details">Doctor Name</span>
+                    <input type="text" placeholder="Doctor's Last Name or First Name" required>
+                  </div>
+
+                  <div class="input-box">
+                    <span class="details">Specialty</span>
+                    <select id="speciality" name="specializationId" tabindex="-1" >
+                      <option value="*">Select Specialty</option>
+
+                      <option value="01">General Surgeon</option>
+
+                      <option value="02">Cardiothoracic  Specialist</option>
+
+                      <option value="03">Neurology Specialist</option>
+
+                      <option value="04">Orthopaedic Specialist</option>
+
+                      <option value="05">Eye Care Specialist</option>
+
+                      <option value="06">Dental Specialist</option>
+                    </select>
+                  </div>
+
+                  <div class="input-box">
+                    <span class="details">Date</span>
+                    <input type="text" placeholder="Enter Your Channeling Date" required>
+                  </div>
+
+                </div>
+
+                <div class="button">
+                  <input type="submit" value="CHANNEL">
+                </div>
+
+              </form>
+            </div>
+            
+          </div>
+    </body>
+</html>
