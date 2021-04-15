@@ -663,11 +663,6 @@ section.buttons .container-fluid {
 	margin-bottom: 25px;
 }
 
-.featured-posts p {
-	margin-top: 20px;
-	color: #fff;
-}
-
 .owl-carousel .owl-dots {
 	position: absolute;
 	top: -55px;
@@ -723,6 +718,8 @@ section.buttons .container-fluid {
     color: #fff;
     font-size: 14px;
     margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: -25px;
 }
 
 #footer .copyright p {
