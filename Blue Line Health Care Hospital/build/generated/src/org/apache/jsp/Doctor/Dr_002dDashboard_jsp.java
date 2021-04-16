@@ -84,11 +84,13 @@ public final class Dr_002dDashboard_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\r\n");
       out.write("            <!-- Header -->\r\n");
       out.write("            <header id=\"header\">\r\n");
-      out.write("              <div class=\"logo\">\r\n");
+      out.write("              <div class=\"logo\">                  \r\n");
       out.write("                <img class=\"dash\" src=\"assets/images/dashboard.png\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n");
       out.write("                <a href=\"Dr-Dashboard.html\">Dashboard</a>\r\n");
       out.write("              </div>\r\n");
       out.write("            </header>\r\n");
+      out.write("            \r\n");
+      out.write("            <h3 class=\"name\">Welcome</h3>\r\n");
       out.write("            \r\n");
       out.write("            <div class=\"time\">\r\n");
       out.write("                ");
