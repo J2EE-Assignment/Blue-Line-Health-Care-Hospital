@@ -44,11 +44,13 @@
 
             <!-- Header -->
             <header id="header">
-              <div class="logo">
+              <div class="logo">                  
                 <img class="dash" src="assets/images/dashboard.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="Dr-Dashboard.html">Dashboard</a>
               </div>
             </header>
+            
+            <h3 class="name">Welcome</h3>
             
             <div class="time">
                 <%
