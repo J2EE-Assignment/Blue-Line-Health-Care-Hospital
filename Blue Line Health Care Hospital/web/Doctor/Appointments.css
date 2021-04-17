@@ -1,10 +1,16 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 15, 2021, 1:27:11 PM
-    Author     : Neranji Sulakshika
-*/
+.logo{
+	width: 10%;
+	height: auto;
+	margin-left: 42%;
+
+}
+
+.mainTitle{
+	color: #24aad4;
+	padding-left: 58%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: sans-serif;
+    padding-top: 0%;
 
