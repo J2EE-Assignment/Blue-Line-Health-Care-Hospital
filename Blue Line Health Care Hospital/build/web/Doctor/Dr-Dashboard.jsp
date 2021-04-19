@@ -134,7 +134,7 @@
                 <li><a href="#.html">Home</a></li>
                 <li><a href="UpdateForm.jsp">Profile</a></li>
                 <li><a href="Appointments.html">Appointments</a></li>
-                <li><a href="../Home/Home.html">Logout</a></li>
+                <li><a href="#">Logout</a></li>
               </ul>
             </nav>
 
