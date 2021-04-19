@@ -80,7 +80,7 @@
                           <div class="banner-caption">
                             <h4>Hello, this is <em>Doctors</em> Dashboard.</h4>
                             <div class="primary-button">
-                              <a href="Dr-Dashboard.html">WELCOME!</a>
+                              <a href="#">WELCOME!</a>
                             </div>
                           </div>
                         </div>
@@ -131,7 +131,7 @@
             <nav id="menu">
               <ul>
                 <li><img class="logo1" src="logo.png"></li>
-                <li><a href="Dr-Dashboard.html">Home</a></li>
+                <li><a href="#.html">Home</a></li>
                 <li><a href="UpdateForm.jsp">Profile</a></li>
                 <li><a href="Appointments.html">Appointments</a></li>
                 <li><a href="../Home/Home.html">Logout</a></li>
