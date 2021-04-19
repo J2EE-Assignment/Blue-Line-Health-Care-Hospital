@@ -49,8 +49,18 @@
                 <a href="Dr-Dashboard.html">Dashboard</a>
               </div>
             </header>
-            
-            <h3 class="name">Welcome</h3>
+                <jsp:declaration>
+                    String username="";
+                    String password="";
+                </jsp:declaration>
+                <jsp:scriptlet>
+                    username = request.getParameter("username");
+                    password = request.getParameter("pass");        
+                </jsp:scriptlet>
+        
+                <strong>
+                    <h3 class="name">Welcome Dr.<jsp:expression>username</jsp:expression></h3>
+                </strong>
             
             <div class="time">
                 <%
