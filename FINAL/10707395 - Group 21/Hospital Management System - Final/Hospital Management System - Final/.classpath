@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Hospital Management System - Final/src/main/java"/>
+	<classpathentry kind="lib" path="Hospital Management System - Final/src/main/webapp/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/samad/Documents/GitHub/Blue-Line-Health-Care-Hospital/FINAL/10707395 - Group 21/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="output" path="Hospital Management System - Final/build/classes"/>
+</classpath>
